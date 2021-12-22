@@ -1,0 +1,224 @@
+
+!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Swiper demo</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+    />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+
+    <style>
+    *{
+    margin: 0;
+    padding: 0;
+        }
+     
+      body {
+        position: relative;
+        height: 100%;
+      }
+
+      body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+  
+        background: #111;
+      }
+
+      .swiper {
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+      }
+
+      .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 300px;
+        height: 300px;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Swiper -->
+
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+         
+          <div class="swiper-slide">
+              <img src="./web-dev/IMG-20211216-WA0012.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./web-dev/IMG-20211217-WA0002.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./web-dev/IMG_20211220_145157.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./web-dev/IMG_20211103_191722.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./web-dev/IMG_20211103_192124.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./web-dev/IMG_20211105_162527.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./web-dev/IMG_20211126_194400.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./web-dev/IMG_20211127_163159.jpg" />
+            </div>
+            <div class="swiper-slide">
+                <img src="./web-dev/IMG_20211203_130339.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./web-dev/IMG_20211203_130454.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./web-dev/IMG_20211203_131243.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./web-dev/IMG_20211203_133500.jpg" />
+              </div>
+         
+          <div class="swiper-slide">
+            <img src="./web-dev/IMG_20211203_133651.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./web-dev/IMG_20211203_175004.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./web-dev/IMG_20211203_182722.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./web-dev/IMG_20211207_095354.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./web-dev/IMG_20211207_123746.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./web-dev/IMG_20211207_174919.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./web-dev/IMG_20211215_154407.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./web-dev/IMG_20211203_130339.jpg" />
+          </div>
+        </div>
+          <div class="swiper-pagination"></div>
+          </div>
+     
+    
+    
+   
+  
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+          rotate: 20,
+          stretch: 0,
+          depth: 200,
+          modifier: 1,
+          slideShadows: true,
+        },
+    loop:true,
+      });
+    </script>
+  </body>
+</html>
+
+<div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+     
+      <div class="swiper-slide">
+          <img src="./web-dev/IMG-20211216-WA0012.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./web-dev/IMG-20211217-WA0002.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./web-dev/IMG_20211220_145157.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./web-dev/IMG_20211103_191722.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./web-dev/IMG_20211103_192124.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./web-dev/IMG_20211105_162527.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./web-dev/IMG_20211126_194400.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./web-dev/IMG_20211127_163159.jpg" />
+        </div>
+        <div class="swiper-slide">
+            <img src="./web-dev/IMG_20211203_130339.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./web-dev/IMG_20211203_130454.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./web-dev/IMG_20211203_131243.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./web-dev/IMG_20211203_133500.jpg" />
+          </div>
+      </div>
+      <div class="swiper-slide">
+        <img src="./web-dev/IMG_20211203_133651.jpg" />
+      </div>
+      <div class="swiper-slide">
+        <img src="./web-dev/IMG_20211203_175004.jpg" />
+      </div>
+      <div class="swiper-slide">
+        <img src="./web-dev/IMG_20211203_182722.jpg" />
+      </div>
+      <div class="swiper-slide">
+        <img src="./web-dev/IMG_20211207_095354.jpg" />
+      </div>
+      <div class="swiper-slide">
+        <img src="./web-dev/IMG_20211207_123746.jpg" />
+      </div>
+      <div class="swiper-slide">
+        <img src="./web-dev/IMG_20211207_174919.jpg" />
+      </div>
+      <div class="swiper-slide">
+        <img src="./web-dev/IMG_20211215_154407.jpg" />
+      </div>
+      <div class="swiper-slide">
+        <img src="./web-dev/IMG_20211203_130339.jpg" />
+      </div>
+      <div class="swiper-pagination"></div>
+      </div>
+      
+
